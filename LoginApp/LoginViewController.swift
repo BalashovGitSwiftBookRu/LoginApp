@@ -9,7 +9,7 @@
 
 import UIKit
 
-final class MainViewController: UIViewController {
+final class LoginViewController: UIViewController {
     
     // MARK: - Data Storage
     let userName = "User"
@@ -86,7 +86,7 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: Return back from WelcomeVC
-    @IBAction func unwindToMainVC(_ unwindSegue: UIStoryboardSegue) {
+    @IBAction func unwindToLoginVC(_ unwindSegue: UIStoryboardSegue) {
         userNameTextField.text = ""
         passwordTextField.text = ""
     }
