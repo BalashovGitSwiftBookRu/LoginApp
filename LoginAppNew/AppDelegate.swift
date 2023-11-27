@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  LoginAppNew
+//  LoginApp
 //
 //  Created by Sergey Balashov on 11/26/23.
 //
